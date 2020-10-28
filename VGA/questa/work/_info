@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.4c/examples
+vsim
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 C=oHRHXVF2ddU:eH3IW9Q0
+ISiagiQNEAC7BZlCRVkM<C3
+!s105 sim_sv_unit
+S1
+Z2 dE:/QuartusProjects/VGA/questa
+w1602240426
+8E:/QuartusProjects/VGA/questa/sim.sv
+FE:/QuartusProjects/VGA/questa/sim.sv
+L0 3
+Z3 OL;L;10.4c;61
+Z4 !s108 1602241876.000000
+!s107 E:/QuartusProjects/VGA/questa/sim.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/QuartusProjects/VGA/questa/sim.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vVGA
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 65:C>W]En:Am]QWE?H19C0
+I@Ia<?ETzFa=FU?JbC`Dd@1
+!s105 VGA_sv_unit
+S1
+R2
+w1602241874
+8E:/QuartusProjects/VGA/VGA.sv
+FE:/QuartusProjects/VGA/VGA.sv
+L0 23
+R3
+R4
+!s107 E:/QuartusProjects/VGA/VGA.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/QuartusProjects/VGA/VGA.sv|
+!i113 0
+R5
+n@v@g@a

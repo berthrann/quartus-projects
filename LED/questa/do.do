@@ -1,0 +1,11 @@
+add wave -position end  sim:/sim/clk
+add wave -position end  sim:/sim/reset
+add wave -position end  sim:/sim/btn
+add wave -position end  sim:/sim/led1
+add wave -position end  sim:/sim/TEST/clk
+add wave -position end  sim:/sim/TEST/btn
+add wave -position end  sim:/sim/TEST/reset
+add wave -position end  sim:/sim/TEST/led1
+add wave -position end  sim:/sim/TEST/state
+add wave -position end  sim:/sim/TEST/counter
+add wave -position end  sim:/sim/TEST/blink_counter

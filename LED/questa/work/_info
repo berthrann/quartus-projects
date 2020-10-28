@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Silnov/QuartusProjects/led/questa
+vled
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 b4HFEN8Rj1=e3cPoz=zYO3
+I00W<BD>4=z]TKeJGaBYAc0
+!s105 led_sim_sv_unit
+S1
+Z2 dF:/QuartusProjects/led/questa
+w1602192608
+8F:\QuartusProjects\led\questa\led_sim.sv
+FF:\QuartusProjects\led\questa\led_sim.sv
+L0 6
+Z3 OL;L;10.4c;61
+!s108 1602192619.000000
+!s107 F:\QuartusProjects\led\questa\led_sim.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|F:\QuartusProjects\led\questa\led_sim.sv|
+!i113 0
+Z4 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vsim
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 KbW[liTDB<lMGaPMTSKCi3
+IGW`R`UDYVnX0lo:oz;i[11
+!s105 sim_sv_unit
+S1
+R2
+w1602193310
+8F:/QuartusProjects/led/questa/sim.sv
+FF:/QuartusProjects/led/questa/sim.sv
+L0 3
+R3
+!s108 1602193312.000000
+!s107 F:/QuartusProjects/led/questa/sim.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|F:/QuartusProjects/led/questa/sim.sv|
+!i113 0
+R4
