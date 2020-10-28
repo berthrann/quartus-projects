@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "v_sync",
+					"strict" : false
+				},
+				{
+					"name" : "h_sync",
+					"strict" : false
+				},
+				{
+					"name" : "vga_r",
+					"strict" : false
+				},
+				{
+					"name" : "vga_g",
+					"strict" : false
+				},
+				{
+					"name" : "vga_b",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
