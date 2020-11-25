@@ -5,20 +5,20 @@
 // v0.1
 
 `timescale 1ns/1ps
-`define DEBUG
+//`define DEBUG
 
 module SDRAM_CONTROLLER
 #(
-    parameter SDRAM_ROW_WIDTH_BIT  = 12,
-    parameter SDRAM_COL_WIDTH_BIT  = 8,
+    parameter SDRAM_ROW_WIDTH_BIT  = 13,
+    parameter SDRAM_COL_WIDTH_BIT  = 9,
 	 parameter SDRAM_BANK_WIDTH_BIT = 2,
 	 parameter SDRAM_DATA_WIDTH_BIT = 16,
 	 parameter SDRAM_CAS            = 3,
 	 
-    parameter tPOWERUP   = 16'd10000, //100ms init time
+    parameter tPOWERUP   = 16'd14285,
 	 parameter tREF       = 64,    // ms
-	 parameter tREF_COUNT = 4096,  // refresh counter (cycle refresh)
-	 parameter tCK        = 7      // clk period 7 ns (for calcul refresh interval)
+	 parameter tREF_COUNT = 8192,  // refresh counter (cycle refresh)
+	 parameter tCK        = 8      // clk period 7 ns (for calcul refresh interval)
 	 
 )
 (
@@ -174,12 +174,7 @@ reg ram_read_valid  = 0;
 
 //reg flag_full_page = 0;  // flag R/W full page
 
-pll PLL(
-	.inclk0(i_clk),
-	.c0(clk_sys),
-	.c1(clk_tb));
-
-always @(posedge clk_sys)
+always @(posedge i_clk)
 begin
     case (w_st)
 	 0:
@@ -200,7 +195,7 @@ begin
 end
 
 // refresh counter ---------------------------------------------------
-always @(posedge clk_sys)
+always @(posedge i_clk)
 begin
     if (ref_en) begin
 	     if (ref_cnt == REFRESH_INTERVAL) begin
@@ -218,7 +213,7 @@ end
 
 
 
-always @(posedge clk_sys)
+always @(posedge i_clk)
 begin
     case (st)
 	 INIT_START:
