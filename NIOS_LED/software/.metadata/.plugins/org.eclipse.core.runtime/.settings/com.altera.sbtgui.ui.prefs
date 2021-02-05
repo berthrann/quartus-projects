@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=E\:\\QuartusProjects\\NIOS_LED\\software\\hello_nios
+newSoftwareExampleWizardPage.sopcinfoFile=E\:\\QuartusProjects\\NIOS_LED\\nios_basic.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=E\:\\QuartusProjects\\NIOS_LED\\software\\hello_nios_bsp
